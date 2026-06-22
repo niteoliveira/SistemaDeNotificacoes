@@ -10,4 +10,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.17" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaNotificacoes.API\SistemaNotificacoes.API.csproj" />
+  </ItemGroup>
 </Project>
